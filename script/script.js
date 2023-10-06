@@ -68,7 +68,7 @@ const movieList = [{
 
       {
         name: "Les chimpanzés de l'espace",
-        picture: "/images/AnimeEspace2.jpg",
+        picture: "images/AnimeEspace2.jpg",
         cat: "Astronautes",
         style: "Animation"
       },
