@@ -96,7 +96,7 @@ const movieList = [{
 
       {
         name: "Pil",
-        picture: "/images/PrincesseAnime3.jpg",
+        picture: "images/PrincesseAnime3.jpg",
         cat: "Princesses",
         style: "Animation"
       },
