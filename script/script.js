@@ -1,6 +1,6 @@
 const movieList = [{
       name: "pirate des caraibes",
-      picture: './images/PirateActeur1.jpg',
+      picture: '/images/PirateActeur1.jpg',
       cat: "Pirates",
       style: "Film"
     },
