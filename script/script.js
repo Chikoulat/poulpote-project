@@ -1,69 +1,67 @@
 const movieList = [{
       name: "pirate des caraibes",
-      picture: '/images/PirateActeur1.jpg',
+      picture: 'images/PirateActeur1.jpg',
       cat: "Pirates",
       style: "Film"
     },
 
     {
       name: "Les goonies",
-      picture: "/images/PirateActeur2.jpg",
+      picture: "images/PirateActeur2.jpg",
       cat: "Pirates",
       style: "Film"
     },
 
     {
       name: "hook",
-      picture: "/images/PirateActeur3.jpg",
+      picture: "images/PirateActeur3.jpg",
       cat: "Pirates",
       style: "Film"
     },
 
     {
       name: "l'ile de blackMór",
-      picture: "/images/PirateAnime1.jpg",
-      picture: "images/l'ile de blackMór.png",
-      cat: "Pirates"
+      picture: "images/PirateAnime1.jpg",
+      cat: "Pirates",
+      style: "Animation"
     },
       {
         name: "Les pirates 3D",
-
-        picture: "/images/PirateAnime2.jpg",
-
+        picture: "images/PirateAnime2.jpg",
         cat: "Pirates",
         style: "Animation"
       },
 
       {
         name: "La planète au tresor",
-        picture: "/images/PirateAnime3.jpg",
+        picture: "images/PirateAnime3.jpg",
         cat: "Pirates",
         style: "Animation"
       },
 
       {
         name: "Les copains dans l'espace",
-        picture: "/images/ActeurEspace1.jpg",
+        picture: "images/ActeurEspace1.jpg",
         cat: "Astronautes",
         style: "Film"
       },
       {
         name: "Explorers",
-        picture: "/images/ActeurEspace2.jpg",
+        picture: "images/ActeurEspace2.jpg",
         cat: "Astronautes",
         style: "Film"
       },
 
       {
         name: "Space warriors",
-        picture: "/images/ActeurEspace3.jpg",
+        picture: "images/ActeurEspace3.jpg",
         cat: "Astronautes",
         style: "Film"
       },
 
       {
         name: "Les zévadés de l'espace",
-        picture: "/images/AnimeEspace3.jpg",
+        picture: "images/AnimeEspace3.jpg",
         cat: "Astronautes",
         style: "Animation"
       },
@@ -77,21 +75,21 @@ const movieList = [{
 
       {
         name: "Wall-E",
-        picture: "/images/AnimeEspace1.jpg",
+        picture: "images/AnimeEspace1.jpg",
         cat: "Astronautes",
         style: "Animation"
       },
 
       {
         name: "La princesse et la grenouille",
-        picture: "/images/PrincesseAnime1.jpg",
+        picture: "images/PrincesseAnime1.jpg",
         cat: "Princesses",
         style: "Animation"
       },
 
       {
         name: "Princesse dragon",
-        picture: "/images/PrincesseAnime2.jpg",
+        picture: "images/PrincesseAnime2.jpg",
         cat: "Princesses",
         style: "Animation"
       },
@@ -105,21 +103,21 @@ const movieList = [{
 
       {
         name: "The princess diaries",
-        picture: "/images/PrincesseActeur3.jpg",
+        picture: "images/PrincesseActeur3.jpg",
         cat: "Princesses",
         style: "Film"
       },
 
       {
         name: "La princesse enchantée",
-        picture: "/images/PrincesseActeur1.jpg",
+        picture: "images/PrincesseActeur1.jpg",
         cat: "Princesses",
         style: "Film"
       },
 
       {
         name: "La petite princesse",
-        picture: "/images/PrincesseActeur2.jpg",
+        picture: "images/PrincesseActeur2.jpg",
         cat: "Princesses",
         style: "Film"
       }
