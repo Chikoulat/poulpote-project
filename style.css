@@ -228,8 +228,8 @@ p {
     position: fixed;
     bottom: 0;
     left: 0;
-    max-width: 40vw;
-    max-height: 40vw;
+    max-width: 20vw;
+    max-height: 20vw;
     width: auto;
     height: auto;
 }
@@ -360,13 +360,13 @@ textarea {
         width: 200px;
         height: 200px;
     }
-    
-.card-title{
-    display: flex;
-}
+
+    .card-title {
+        display: flex;
+    }
 
     .card-button {
-       display: none;
+        display: none;
     }
 
 }
