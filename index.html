@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap"
       rel="stylesheet"
     />
-    <title>Mon Site Web</title>
+    <link rel="icon" type="image/x-icon" href="/logo/logo.png" />
+    <title>Ciné Poulpote</title>
   </head>
 
   <body>
@@ -33,21 +34,29 @@
       id="div1"
       onkeyup="recherche1(getReceive1);"
     >
-      <button id="startButton">Clique ici!<br />pour commencer</button>
+      <button type="button" id="startButton">
+        Clique ici!<br />pour commencer
+      </button>
     </div>
     <div class="fenetre-style category" id="div2">
       <p>
         Salut à toi !<br /><br />C’est super sympa de venir me voir !<br /><br />
         Aujourd’hui tu es plutôt :
       </p>
-      <button class="catButton" value="Pirates">Pirates</button>
-      <button class="catButton" value="Astronautes">Astronautes</button>
-      <button class="catButton" value="Princesses">Princesses</button>
+      <button type="button" class="catButton" value="Pirates">Pirates</button>
+      <button type="button" class="catButton" value="Astronautes">
+        Astronautes
+      </button>
+      <button type="button" class="catButton" value="Princesses">
+        Princesses
+      </button>
     </div>
     <div class="fenetre-style style" id="div3">
       <p>Très bon choix !<br />Tu préfères les films avec :</p>
-      <button class="styleButton" value="Film">Film</button>
-      <button class="styleButton" value="Animation">Animation</button>
+      <button type="button" class="styleButton" value="Film">Film</button>
+      <button type="button" class="styleButton" value="Animation">
+        Animation
+      </button>
     </div>
     <div class="fenetre-style" id="div4">
       <p>
@@ -57,7 +66,7 @@
       <button id="laSelectionButton" type="button">Voir la séléction</button>
     </div>
     <div class="fenetre-style" id="div5">
-      <p>Ta sélection :</p>
+      <div class="wrap-selection"></div>
     </div>
 
     <img src="logo/logo.png" id="imagePoulpe" alt="" />

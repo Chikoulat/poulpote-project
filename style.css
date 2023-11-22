@@ -97,14 +97,22 @@ h1 {
     color: aliceblue;
 }
 
-button {
+.catButton,
+.styleButton,
+.submit {
     background: none;
     border-style: none;
-    font-size: 50px;
+    font-size: 60px;
     color: aliceblue;
     text-align: center;
 }
 
+#startButton,
+#laSelectionButton {
+    border-style: none;
+    color: aliceblue;
+    text-align: center;
+}
 
 div {
     display: flex;
@@ -208,20 +216,32 @@ p {
 }
 
 .card {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 
+    flex-direction: column;
 }
 
 .card-img {
-    height: 400px;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     border-radius: 30px;
     padding: 10px;
 }
 
 .card-button {
-    position: absolute;
-    bottom: 350px;
+    background: none;
+    border-style: none;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
 }
 
 #imagePoulpe {
@@ -273,7 +293,6 @@ textarea {
     list-style: none;
     text-decoration: none;
     display: flex;
-    padding-right: 40px;
 }
 
 /* mobile */
